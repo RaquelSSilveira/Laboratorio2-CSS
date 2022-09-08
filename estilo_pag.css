@@ -1,0 +1,49 @@
+*{
+    font-family:sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background: #394674;
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem;
+  
+    display: flex;
+    justify-content: center;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    table-layout: auto;
+  }
+
+div {
+    height: 200px;
+    background-color: aliceblue;
+    margin: 45px;
+    padding: 75px;
+    border: solid 10px #3f87a6;
+}
+form {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  footer {
+    background: #394674;
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem;
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+  }
